@@ -1,5 +1,6 @@
 /**
  * Note: The returned array must be malloced, assume caller calls free().
+ * This code is without stack implementation
  */
 int* dailyTemperatures(int* temperatures, int temperaturesSize, int* returnSize){
     int j;
