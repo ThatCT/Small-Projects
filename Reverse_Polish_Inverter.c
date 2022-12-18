@@ -1,3 +1,5 @@
+//      Takes input array tokens = ["9", "1", "+", ... , etc.] and tokensSize the length of the tokens array
+
 int evalRPN(char ** tokens, int tokensSize){
     long long* s = calloc(tokensSize, sizeof(long long));
     int sc = 0;
@@ -26,5 +28,5 @@ int evalRPN(char ** tokens, int tokensSize){
             s[sc++] = atoi(tokens[i]);
         }
     }
-    return s[0];
+    return s[0];                                   
 }
