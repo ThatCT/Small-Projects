@@ -8,7 +8,6 @@ int* getConcatenation(int* nums, int numsSize, int* returnSize){
     }
     return ans;
 }
-
 /*          Build array from permutation            */
 int* buildArray(int* nums, int numsSize, int* returnSize){ 
     *returnSize = numsSize;
